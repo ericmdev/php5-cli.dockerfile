@@ -4,14 +4,14 @@ build:
 	docker build -t php5-cli-image -f Dockerfile .
 
 # Stop and remove all containers.
-.PHONY: rm
-rm:
+.PHONY: clean
+clean:
 	docker stop php5-cli-container
 	docker rm php5-cli-container
 
 # Remove the image.
-.PHONY: rm-image
-rm-image:
+.PHONY: clean-image
+clean-image:
 	docker rm php5-cli-image
 
 # List all containers.
