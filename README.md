@@ -4,15 +4,8 @@
 
 **Dockerfile** of [Debian](https://www.debian.org/) [PHP-CLI (PHP 5)](https://secure.php.net/):
 
-- php5-dev
 - php5-common
 - php5-cli
-- php5-mcrypt
-- php5-mysql
-- php5-gd
-- php5-imagick
-- php5-curl
-- php5-intl
 
 *Requirements*
 - [Docker](https://www.docker.com/) 
